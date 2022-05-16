@@ -1,5 +1,5 @@
 RUN chmod 777 /usr/src/app
-
+RUN apt install git python3-pip
 RUN pip3 install -U pip
 RUN mkdir /app/
 WORKDIR /app/
