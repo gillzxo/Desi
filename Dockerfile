@@ -1,6 +1,6 @@
 FROM breakdowns/mega-sdk-python:latest
 
-RUN install git python3-pip ffmpeg megatools -y
+RUN install git python3-pip ffmpeg
 RUN pip3 install -U pip
 RUN mkdir /app/
 WORKDIR /app/
