@@ -1,6 +1,9 @@
 FROM breakdowns/mega-sdk-python:latest
 
-RUN install git python3-pip
+RUN dnf upgrade -y
+RUN dnf install \
+  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+RUN dnf install git python3-pip ffmpeg megatools -y
 RUN pip3 install -U pip
 RUN mkdir /app/
 WORKDIR /app/
