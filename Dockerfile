@@ -1,4 +1,4 @@
-FROM breakdowns/mega-sdk-python:latest
+FROM fedora:latest
 
 RUN dnf upgrade -y
 RUN dnf install \
