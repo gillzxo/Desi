@@ -1,12 +1,8 @@
-FROM fedora:latest
+RUN chmod 777 /usr/src/app
 
-RUN dnf upgrade -y
-RUN dnf install \
-  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
-RUN dnf install git python3-pip ffmpeg megatools -y
 RUN pip3 install -U pip
 RUN mkdir /app/
 WORKDIR /app/
-RUN git clone https://github.com/gillzxo/apptest.git /app
+RUN git clone https://github.com/gillzxo/apptest.git /apptest
 RUN pip3 install -U -r requirements.txt
 CMD [ "bash", "up.sh" ]
