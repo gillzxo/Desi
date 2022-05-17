@@ -1,5 +1,3 @@
-git clone $OSM Github_Repo
-cd Github_Repo
-pip3 install -U -r requirements.txt
-_externals
+git clone $OSM apptest
+cd apptest
 python $PIN_FILE
