@@ -10,7 +10,7 @@
     "repository": "https://github.com/kit-Telejjjngram",
     "logo": "https://small-sharp-tool.com",
     "success_url": "/welmnnnhhcome",
-    env": {
+    "env": {
     "OTLS": {
       "description": "If you need install packages for running your app(Python is pre-installed).[Space in between each package]",
       "value": "None",
