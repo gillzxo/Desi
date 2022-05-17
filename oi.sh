@@ -1,3 +1,5 @@
-#!/usr/bin/bash
-git clone https://github.com/gillzxo/apptest.git apptest
-python3 $PIN
+git clone $OSM Github_Repo
+cd Github_Repo
+pip3 install -U -r requirements.txt
+_externals
+python $PIN_FILE
