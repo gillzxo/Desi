@@ -7,7 +7,5 @@ WORKDIR /app/
 RUN git clone https://github.com/gillzxo/apptest.git /apptest
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
-COPY run .
-RUN chmod +x ./run
 COPY . .
-CMD ./run
+CMD ["bash", "oi.sh"]
