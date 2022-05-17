@@ -10,12 +10,26 @@
     "repository": "https://github.com/kit-Telejjjngram",
     "logo": "https://small-sharp-tool.com",
     "success_url": "/welmnnnhhcome",
-    "env": {
-      "PIN": {
-      "description": "Add yjnnour app url here",
-      "value": ""
-        }
+    env": {
+    "OTLS": {
+      "description": "If you need install packages for running your app(Python is pre-installed).[Space in between each package]",
+      "value": "None",
+      "required": false
     },
+    "OSM": {
+      "description": "URL of the REPO that you want to deploy.",
+      "value": ""
+    },
+    "PINFILE": {
+      "description": "Name of the python file that you need to run. [use -m if you need to run __main__.py from a folder]",
+      "value": ""
+    },
+     "OD": {
+      "description": "If you need to run any bash command other than python specify here",
+      "value": "None",
+      "required": false
+    }
+  },
     "formation": {
       "worker": {
         "quantity": 1,
