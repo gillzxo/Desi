@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 git clone https://github.com/gillzxo/apptest.git apptest
-python3 $PYTHON
+python3 $PIN
