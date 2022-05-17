@@ -1,18 +1,18 @@
 {
-    "name": "Tit",
+    "name": "Tjajsbsit",
     "description": "Aimed to be swissknife of Torrents Bot for Telegram..",
     "keywords": [
       "Telegram",
       "Bot",
       "Torrents"
     ],
-    "website": "https://github.com/m",
-    "repository": "https://github.com/kit-Telegram",
+    "website": "https://github.com/mnnn",
+    "repository": "https://github.com/kit-Telejjjngram",
     "logo": "https://small-sharp-tool.com",
-    "success_url": "/welcome",
+    "success_url": "/welmnnnhhcome",
     "env": {
-      "PYTHON": {
-      "description": "Add your app url here",
+      "PIN": {
+      "description": "Add yjnnour app url here",
       "value": ""
         }
     },
@@ -28,7 +28,7 @@
         "options": {
           "version": "12"
         },
-        "as":"DB_URI"
+        "as":"DBI_URI"
       }
     ],
     "stack": "container"
